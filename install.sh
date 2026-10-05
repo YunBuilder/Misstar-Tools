@@ -98,7 +98,7 @@ fi
 
 echo "开始下载安装包..."
 
-url="https://raw.githubusercontent.com/honglt1/Misstar-Tools/master/appstore/$model"
+url="https://v4.gh-proxy.org/https://raw.githubusercontent.com/YunBuilder/Misstar-Tools/master/appstore/$model"
 
 curl -kL ${url}/misstar.mt -o /tmp/misstar.mt 
 
